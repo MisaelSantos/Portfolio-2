@@ -1,35 +1,80 @@
-body{
-    /*background-image: url("img/background-sky.jpg");*/
-    background-color: #D5DBDB;
-}
-i{
-    color: #1C1C1C;
+body {
+    background-image: url("img/squad.gif");
 }
 
-h1{
+i {
+    color: white;
+}
+
+h1 {
     text-align: center;
+    text-shadow: 3px 4px black;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
 }
 
-.div-img{
+.container {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio {
+    width: 440px;
+    height: 500px;
+    background-color: rgba(92, 102, 112, 0.3);
+}
+
+.div-img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
-.div-img img{
+.div-img img {
     border-radius: 50%;
     border-width: 2.7px;
     border-style: dashed;
+    color: lavender;
     width: 200px;
     height: 200px;
 }
 
-.div-row{
+.div-row {
     display: flex;
     justify-content: center;
 }
 
-.div-row div{
+.div-row div {
     flex-direction: row;
-    margin:5px;
+    margin: 5px;
+}
+
+i:hover {
+    background-color: black;
+    transition-delay: 0.5s;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-variant: small-caps;
+    text-transform: none;
 }
